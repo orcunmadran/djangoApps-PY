@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HOME</title>
+</head>
+<body>
+<h1>Django Ana Sayfa</h1>
+{%include "navigation.html" %}
+<p>Merhaba, {{request.user}}</p>
+<p>Merhaba, {{ad|upper}} {{soyad}}</p>
+<p>{% lorem %}</p>
+<p>https://docs.djangoproject.com/en/3.0/ref/templates/builtins/</p>
+</body>
+</html>
